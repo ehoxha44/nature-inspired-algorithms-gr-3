@@ -1,0 +1,746 @@
+{
+  "instance": "uk",
+  "total_score": 11635.0,
+  "programs_scheduled": 134,
+  "elapsed_seconds": 61.19,
+  "schedule": [
+    {
+      "channel_id": 481,
+      "program_id": "newvisiontv_uk_headline_news_2026-01-04_0000"
+    },
+    {
+      "channel_id": 291,
+      "program_id": "euronews_uk_news_2026-01-04_0005"
+    },
+    {
+      "channel_id": 291,
+      "program_id": "euronews_uk_global_week_end_2026-01-04_0030"
+    },
+    {
+      "channel_id": 291,
+      "program_id": "euronews_uk_news_2026-01-04_0038"
+    },
+    {
+      "channel_id": 291,
+      "program_id": "euronews_uk_news_2026-01-04_0048"
+    },
+    {
+      "channel_id": 291,
+      "program_id": "euronews_uk_global_week_end_2026-01-04_0060"
+    },
+    {
+      "channel_id": 368,
+      "program_id": "itv1meridian_1_uk_itv_meridian_weather_2026-01-04_0074"
+    },
+    {
+      "channel_id": 306,
+      "program_id": "france24_uk_the_observers_2026-01-04_0075"
+    },
+    {
+      "channel_id": 321,
+      "program_id": "great_action_uk_this_week_back_then_2026-01-04_0081"
+    },
+    {
+      "channel_id": 319,
+      "program_id": "ginxesportstv_uk_icons_2026-01-04_0090"
+    },
+    {
+      "channel_id": 325,
+      "program_id": "great_romance_uk_good_news_on_great_2026-01-04_0110"
+    },
+    {
+      "channel_id": 769,
+      "program_id": "skysportsclassics__one2eleven_2026-01-04_0120"
+    },
+    {
+      "channel_id": 327,
+      "program_id": "great_tv_uk_good_news_from_great_2026-01-04_0130"
+    },
+    {
+      "channel_id": 320,
+      "program_id": "great_action_1_uk_this_week_back_then_2026-01-04_0141"
+    },
+    {
+      "channel_id": 291,
+      "program_id": "euronews_uk_news_2026-01-04_0158"
+    },
+    {
+      "channel_id": 291,
+      "program_id": "euronews_uk_news_2026-01-04_0168"
+    },
+    {
+      "channel_id": 481,
+      "program_id": "newvisiontv_uk_headline_news_2026-01-04_0180"
+    },
+    {
+      "channel_id": 326,
+      "program_id": "great_tv_1_uk_good_news_from_great_2026-01-04_0190"
+    },
+    {
+      "channel_id": 770,
+      "program_id": "skysportscricket_u_the_best_of_sky_sports_c_2026-01-04_0200"
+    },
+    {
+      "channel_id": 132,
+      "program_id": "bbcws_uk_bbc_news_summary_2026-01-04_0210"
+    },
+    {
+      "channel_id": 392,
+      "program_id": "islamchannel_uk_prayers_from_makkah_fajr_2026-01-04_0215"
+    },
+    {
+      "channel_id": 837,
+      "program_id": "thatstv3_uk_that_s_60s_best_music_li_2026-01-04_0235"
+    },
+    {
+      "channel_id": 481,
+      "program_id": "newvisiontv_uk_headline_news_2026-01-04_0240"
+    },
+    {
+      "channel_id": 773,
+      "program_id": "skysportsfootball__efl_greatest_2017_18_ast_2026-01-04_0255"
+    },
+    {
+      "channel_id": 781,
+      "program_id": "skysportspremierle_the_premier_league_s_gre_2026-01-04_0270"
+    },
+    {
+      "channel_id": 326,
+      "program_id": "great_tv_1_uk_good_news_from_great_2026-01-04_0290"
+    },
+    {
+      "channel_id": 331,
+      "program_id": "godchannel_uk_bless_israel_2026-01-04_0300"
+    },
+    {
+      "channel_id": 132,
+      "program_id": "bbcws_uk_bbc_news_summary_2026-01-04_0330"
+    },
+    {
+      "channel_id": 486,
+      "program_id": "nickjrtoo_uk_peppa_pig_2026-01-04_0335"
+    },
+    {
+      "channel_id": 767,
+      "program_id": "skysportsaction_uk_nfl_football_new_york_gi_2026-01-04_0345"
+    },
+    {
+      "channel_id": 481,
+      "program_id": "newvisiontv_uk_headline_news_2026-01-04_0360"
+    },
+    {
+      "channel_id": 484,
+      "program_id": "nickjr_1_uk_peppa_pig_2026-01-04_0375"
+    },
+    {
+      "channel_id": 486,
+      "program_id": "nickjrtoo_uk_peppa_pig_2026-01-04_0380"
+    },
+    {
+      "channel_id": 180,
+      "program_id": "channel5_uk_entertainment_news_on_5_2026-01-04_0390"
+    },
+    {
+      "channel_id": 291,
+      "program_id": "euronews_uk_news_2026-01-04_0398"
+    },
+    {
+      "channel_id": 326,
+      "program_id": "great_tv_1_uk_good_news_from_great_2026-01-04_0410"
+    },
+    {
+      "channel_id": 560,
+      "program_id": "s4c_uk_tomos_a_i_ffrindiau_2026-01-04_0420"
+    },
+    {
+      "channel_id": 290,
+      "program_id": "englishclubtv_uk_sunny_songs_2026-01-04_0430"
+    },
+    {
+      "channel_id": 291,
+      "program_id": "euronews_uk_5_minutes_2026-01-04_0449"
+    },
+    {
+      "channel_id": 659,
+      "program_id": "skykids_uk_pingu_in_the_city_2026-01-04_0455"
+    },
+    {
+      "channel_id": 805,
+      "program_id": "tg4_ie_mecha_builders_2026-01-04_0468"
+    },
+    {
+      "channel_id": 327,
+      "program_id": "great_tv_uk_good_news_from_great_2026-01-04_0480"
+    },
+    {
+      "channel_id": 86,
+      "program_id": "bbcfour_cbeebies_u_roots_and_fruits_2026-01-04_0490"
+    },
+    {
+      "channel_id": 548,
+      "program_id": "rtejr_ie_jojo_and_gran_gran_2026-01-04_0495"
+    },
+    {
+      "channel_id": 347,
+      "program_id": "highstreettv2_uk_mattress_maid_2026-01-04_0510"
+    },
+    {
+      "channel_id": 481,
+      "program_id": "newvisiontv_uk_headline_news_2026-01-04_0540"
+    },
+    {
+      "channel_id": 377,
+      "program_id": "itv2_1_uk_be_cool_scooby_doo_2026-01-04_0545"
+    },
+    {
+      "channel_id": 659,
+      "program_id": "skykids_uk_pip_and_posy_2026-01-04_0570"
+    },
+    {
+      "channel_id": 659,
+      "program_id": "skykids_uk_pip_and_posy_2026-01-04_0575"
+    },
+    {
+      "channel_id": 324,
+      "program_id": "great_romance_1_uk_good_news_on_great_extra_2026-01-04_0590"
+    },
+    {
+      "channel_id": 317,
+      "program_id": "geonews_uk_geo_world_news_headlines_2026-01-04_0600"
+    },
+    {
+      "channel_id": 659,
+      "program_id": "skykids_uk_pip_and_posy_2026-01-04_0605"
+    },
+    {
+      "channel_id": 659,
+      "program_id": "skykids_uk_pingu_in_the_city_2026-01-04_0615"
+    },
+    {
+      "channel_id": 858,
+      "program_id": "utv_ie_itv_news_2026-01-04_0625"
+    },
+    {
+      "channel_id": 132,
+      "program_id": "bbcws_uk_bbc_news_summary_2026-01-04_0630"
+    },
+    {
+      "channel_id": 86,
+      "program_id": "bbcfour_cbeebies_u_bluey_2026-01-04_0635"
+    },
+    {
+      "channel_id": 163,
+      "program_id": "cbeebies_uk_hey_duggee_2026-01-04_0640"
+    },
+    {
+      "channel_id": 324,
+      "program_id": "great_romance_1_uk_good_news_on_great_2026-01-04_0655"
+    },
+    {
+      "channel_id": 813,
+      "program_id": "tntsports4_uk_tnt_sports_reload_best_o_2026-01-04_0660"
+    },
+    {
+      "channel_id": 180,
+      "program_id": "channel5_uk_entertainment_news_on_5_2026-01-04_0680"
+    },
+    {
+      "channel_id": 208,
+      "program_id": "dazn1_uk_next_game_obiettivo_sull_2026-01-04_0685"
+    },
+    {
+      "channel_id": 132,
+      "program_id": "bbcws_uk_bbc_news_summary_2026-01-04_0690"
+    },
+    {
+      "channel_id": 86,
+      "program_id": "bbcfour_cbeebies_u_the_weasy_family_2026-01-04_0695"
+    },
+    {
+      "channel_id": 136,
+      "program_id": "babytv_uk_songs_and_rhymes_2026-01-04_0708"
+    },
+    {
+      "channel_id": 327,
+      "program_id": "great_tv_uk_good_news_from_great_2026-01-04_0712"
+    },
+    {
+      "channel_id": 481,
+      "program_id": "newvisiontv_uk_headline_news_2026-01-04_0720"
+    },
+    {
+      "channel_id": 136,
+      "program_id": "babytv_uk_oliver_discovers_2026-01-04_0741"
+    },
+    {
+      "channel_id": 486,
+      "program_id": "nickjrtoo_uk_peppa_pig_2026-01-04_0750"
+    },
+    {
+      "channel_id": 326,
+      "program_id": "great_tv_1_uk_good_news_from_great_2026-01-04_0772"
+    },
+    {
+      "channel_id": 481,
+      "program_id": "newvisiontv_uk_headline_news_2026-01-04_0780"
+    },
+    {
+      "channel_id": 290,
+      "program_id": "englishclubtv_uk_sunny_songs_2026-01-04_0790"
+    },
+    {
+      "channel_id": 767,
+      "program_id": "skysportsaction_uk_nfl_football_week_18_2026-01-04_0795"
+    },
+    {
+      "channel_id": 132,
+      "program_id": "bbcws_uk_bbc_news_summary_2026-01-04_0810"
+    },
+    {
+      "channel_id": 391,
+      "program_id": "islambangla_uk_prayers_from_makkah_asr_2026-01-04_0813"
+    },
+    {
+      "channel_id": 325,
+      "program_id": "great_romance_uk_good_news_on_great_2026-01-04_0835"
+    },
+    {
+      "channel_id": 136,
+      "program_id": "babytv_uk_songs_and_rhymes_2026-01-04_0842"
+    },
+    {
+      "channel_id": 659,
+      "program_id": "skykids_uk_pingu_in_the_city_2026-01-04_0845"
+    },
+    {
+      "channel_id": 179,
+      "program_id": "channel5_1_uk_entertainment_news_on_5_2026-01-04_0850"
+    },
+    {
+      "channel_id": 769,
+      "program_id": "skysportsclassics__one2eleven_2026-01-04_0855"
+    },
+    {
+      "channel_id": 124,
+      "program_id": "bbcrngael_uk_an_litir_bheag_2026-01-04_0870"
+    },
+    {
+      "channel_id": 113,
+      "program_id": "bbcr4ex_uk_inheritance_tracks_2026-01-04_0880"
+    },
+    {
+      "channel_id": 163,
+      "program_id": "cbeebies_uk_roots_and_fruits_2026-01-04_0895"
+    },
+    {
+      "channel_id": 164,
+      "program_id": "chstv_uk_independent_news_2026-01-04_0900"
+    },
+    {
+      "channel_id": 320,
+      "program_id": "great_action_1_uk_this_week_back_then_2026-01-04_0906"
+    },
+    {
+      "channel_id": 367,
+      "program_id": "itv1london_uk_itv_lunchtime_news_2026-01-04_0920"
+    },
+    {
+      "channel_id": 136,
+      "program_id": "babytv_uk_oliver_discovers_2026-01-04_0925"
+    },
+    {
+      "channel_id": 393,
+      "program_id": "islamchannelurdu_u_anmol_moti_2026-01-04_0935"
+    },
+    {
+      "channel_id": 325,
+      "program_id": "great_romance_uk_good_news_on_great_2026-01-04_0950"
+    },
+    {
+      "channel_id": 481,
+      "program_id": "newvisiontv_uk_headline_news_2026-01-04_0960"
+    },
+    {
+      "channel_id": 127,
+      "program_id": "bbcthree_cbbc_uk_total_dramarama_2026-01-04_0965"
+    },
+    {
+      "channel_id": 163,
+      "program_id": "cbeebies_uk_i_spy_you_spy_2026-01-04_0980"
+    },
+    {
+      "channel_id": 179,
+      "program_id": "channel5_1_uk_entertainment_news_on_5_2026-01-04_0985"
+    },
+    {
+      "channel_id": 548,
+      "program_id": "rtejr_ie_nelly_and_nora_2026-01-04_0990"
+    },
+    {
+      "channel_id": 86,
+      "program_id": "bbcfour_cbeebies_u_mojo_swoptops_2026-01-04_1000"
+    },
+    {
+      "channel_id": 231,
+      "program_id": "disneyjr_uk_bluey_2026-01-04_1010"
+    },
+    {
+      "channel_id": 481,
+      "program_id": "newvisiontv_uk_headline_news_2026-01-04_1020"
+    },
+    {
+      "channel_id": 659,
+      "program_id": "skykids_uk_pip_and_posy_2026-01-04_1025"
+    },
+    {
+      "channel_id": 231,
+      "program_id": "disneyjr_uk_bluey_2026-01-04_1030"
+    },
+    {
+      "channel_id": 180,
+      "program_id": "channel5_uk_entertainment_news_on_5_2026-01-04_1035"
+    },
+    {
+      "channel_id": 214,
+      "program_id": "dazn6_uk_next_game_hellas_verona__2026-01-04_1045"
+    },
+    {
+      "channel_id": 291,
+      "program_id": "euronews_uk_5_minutes_2026-01-04_1049"
+    },
+    {
+      "channel_id": 291,
+      "program_id": "euronews_uk_news_2026-01-04_1054"
+    },
+    {
+      "channel_id": 291,
+      "program_id": "euronews_uk_5_minutes_2026-01-04_1080"
+    },
+    {
+      "channel_id": 179,
+      "program_id": "channel5_1_uk_entertainment_news_on_5_2026-01-04_1095"
+    },
+    {
+      "channel_id": 291,
+      "program_id": "euronews_uk_news_2026-01-04_1118"
+    },
+    {
+      "channel_id": 90,
+      "program_id": "bbconechannelislan_spotlight_weather_2026-01-04_1130"
+    },
+    {
+      "channel_id": 83,
+      "program_id": "bbcalba_uk_an_l_2026-01-04_1135"
+    },
+    {
+      "channel_id": 435,
+      "program_id": "mutv_uk_player_spotlight_mbeumo__2026-01-04_1140"
+    },
+    {
+      "channel_id": 435,
+      "program_id": "mutv_uk_adidas_reflection_2026-01-04_1155"
+    },
+    {
+      "channel_id": 228,
+      "program_id": "discoveryscience_u_how_it_s_made_2026-01-04_1170"
+    },
+    {
+      "channel_id": 481,
+      "program_id": "newvisiontv_uk_headline_news_2026-01-04_1200"
+    },
+    {
+      "channel_id": 136,
+      "program_id": "babytv_uk_let_s_dance_2026-01-04_1209"
+    },
+    {
+      "channel_id": 1,
+      "program_id": "5action_uk_entertainment_news_on_5_2026-01-04_1220"
+    },
+    {
+      "channel_id": 659,
+      "program_id": "skykids_uk_funny_talking_animals_2026-01-04_1225"
+    },
+    {
+      "channel_id": 132,
+      "program_id": "bbcws_uk_bbc_news_summary_2026-01-04_1230"
+    },
+    {
+      "channel_id": 486,
+      "program_id": "nickjrtoo_uk_peppa_pig_2026-01-04_1235"
+    },
+    {
+      "channel_id": 772,
+      "program_id": "skysportsf1uhd_uk_darts_gold_2000_01_wdc_d_2026-01-04_1245"
+    },
+    {
+      "channel_id": 481,
+      "program_id": "newvisiontv_uk_headline_news_2026-01-04_1260"
+    },
+    {
+      "channel_id": 783,
+      "program_id": "skysportsstories_u_my_icon_2026-01-04_1270"
+    },
+    {
+      "channel_id": 377,
+      "program_id": "itv2_1_uk_fyi_daily_2026-01-04_1285"
+    },
+    {
+      "channel_id": 306,
+      "program_id": "france24_uk_news_2026-01-04_1290"
+    },
+    {
+      "channel_id": 400,
+      "program_id": "lfctv_uk_when_alisson_met_reagan_2026-01-04_1305"
+    },
+    {
+      "channel_id": 291,
+      "program_id": "euronews_uk_5_minutes_2026-01-04_1320"
+    },
+    {
+      "channel_id": 3,
+      "program_id": "5star_1_uk_entertainment_news_on_5_2026-01-04_1330"
+    },
+    {
+      "channel_id": 213,
+      "program_id": "dazn5_uk_next_game_chargers_bronc_2026-01-04_1337"
+    },
+    {
+      "channel_id": 136,
+      "program_id": "babytv_uk_bath_tubbies_2026-01-04_1351"
+    },
+    {
+      "channel_id": 306,
+      "program_id": "france24_uk_a_week_in_france_2026-01-04_1365"
+    },
+    {
+      "channel_id": 481,
+      "program_id": "newvisiontv_uk_headline_news_2026-01-04_1380"
+    },
+    {
+      "channel_id": 486,
+      "program_id": "nickjrtoo_uk_peppa_pig_2026-01-04_1385"
+    },
+    {
+      "channel_id": 485,
+      "program_id": "nickjr_uk_peppa_pig_2026-01-04_1395"
+    },
+    {
+      "channel_id": 325,
+      "program_id": "great_romance_uk_good_news_on_great_2026-01-04_1405"
+    },
+    {
+      "channel_id": 180,
+      "program_id": "channel5_uk_entertainment_news_on_5_2026-01-04_1410"
+    },
+    {
+      "channel_id": 231,
+      "program_id": "disneyjr_uk_bluey_2026-01-04_1415"
+    },
+    {
+      "channel_id": 326,
+      "program_id": "great_tv_1_uk_good_news_from_great_2026-01-04_1432"
+    }
+  ],
+  "convergence": [
+    10776.0,
+    10776.0,
+    10864.0,
+    10914.0,
+    11146.0,
+    11147.0,
+    11147.0,
+    11206.0,
+    11316.0,
+    11316.0,
+    11363.0,
+    11363.0,
+    11374.0,
+    11374.0,
+    11374.0,
+    11374.0,
+    11374.0,
+    11374.0,
+    11374.0,
+    11374.0,
+    11374.0,
+    11374.0,
+    11374.0,
+    11374.0,
+    11374.0,
+    11374.0,
+    11383.0,
+    11383.0,
+    11392.0,
+    11397.0,
+    11397.0,
+    11415.0,
+    11415.0,
+    11415.0,
+    11415.0,
+    11415.0,
+    11415.0,
+    11438.0,
+    11438.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11460.0,
+    11468.0,
+    11468.0,
+    11468.0,
+    11468.0,
+    11468.0,
+    11468.0,
+    11468.0,
+    11468.0,
+    11468.0,
+    11468.0,
+    11468.0,
+    11468.0,
+    11468.0,
+    11468.0,
+    11468.0,
+    11468.0,
+    11468.0,
+    11468.0,
+    11468.0,
+    11468.0,
+    11468.0,
+    11468.0,
+    11468.0,
+    11468.0,
+    11468.0,
+    11468.0,
+    11468.0,
+    11468.0,
+    11468.0,
+    11468.0,
+    11468.0,
+    11468.0,
+    11468.0,
+    11473.0,
+    11473.0,
+    11473.0,
+    11473.0,
+    11473.0,
+    11473.0,
+    11474.0,
+    11474.0,
+    11474.0,
+    11474.0,
+    11474.0,
+    11474.0,
+    11474.0,
+    11474.0,
+    11475.0,
+    11475.0,
+    11475.0,
+    11475.0,
+    11478.0,
+    11478.0,
+    11478.0,
+    11478.0,
+    11478.0,
+    11478.0,
+    11478.0,
+    11551.0,
+    11551.0,
+    11551.0,
+    11551.0,
+    11551.0,
+    11556.0,
+    11630.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0,
+    11635.0
+  ]
+}
