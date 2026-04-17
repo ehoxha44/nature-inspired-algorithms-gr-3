@@ -1,8 +1,10 @@
 # Smart TV Schedule Optimizer
 
-A **Genetic Algorithm** solver for the Smart TV Scheduling combinatorial optimisation problem,
-enhanced with a **Dynamic Programming seed**, four fine-grained mutation operators,
+A **Genetic Algorithm** solver for the Smart TV Scheduling combinatorial optimisation problem.
+Enhanced with a **Dynamic Programming seed**, four fine-grained mutation operators,
 stagnation-adaptive mutation, and a post-GA local search refinement.
+
+Developed as part of the Nature-Inspired Algorithms course — Group 3.
 
 ## Project Structure
 
@@ -45,12 +47,11 @@ python -m tv_scheduler.main data/input/kosovo.json \
 
 # Batch-run all inputs
 python -m tv_scheduler.main --all data/input/ --generations 300
-
-# Generate PDF report (requires: pip install reportlab)
-python generate_report_v2.py
 ```
 
 ## Results (default parameters: pop=100, gen=200, seed=42)
+
+Output files are saved as JSON in `data/output/`.
 
 | Instance | Score | Programs | Time |
 |---|---|---|---|
