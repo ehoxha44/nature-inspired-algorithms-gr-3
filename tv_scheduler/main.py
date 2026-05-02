@@ -7,13 +7,41 @@ import os
 import random
 import sys
 import time
+from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Callable, List, Optional, Tuple
+from typing import Any, Callable, Dict, List, Optional, Tuple
 
 from .models import Program, ProblemInstance, PriorityBlock, PreferenceInterval
 from .decoder import decode_chromosome
-from .fitness import compute_score, compute_attractiveness
+from .fitness import (
+    compute_attractiveness,
+    compute_score,
+    relaxed_interval_upper_bound,
+)
 from .ga import GeneticAlgorithm, GAConfig
+
+
+@dataclass
+class SolveResult:
+    score: float
+    programs_scheduled: int
+    elapsed_seconds: float
+    convergence: List[float]
+    stop_reason: str
+    relaxation_upper_bound: float
+    hit_upper_bound: bool
+    schedule: List[Dict[str, Any]] = field(default_factory=list)
+
+    def as_output_json(self, instance_name: str) -> Dict[str, Any]:
+        """Same schema as ``save_json_output`` / ``data/output/<instance>.json``."""
+        return {
+            "instance": instance_name,
+            "total_score": self.score,
+            "programs_scheduled": self.programs_scheduled,
+            "elapsed_seconds": round(self.elapsed_seconds, 2),
+            "schedule": self.schedule,
+            "convergence": self.convergence,
+        }
 
 
 def load_instance(filepath: str) -> ProblemInstance:
@@ -143,6 +171,8 @@ def local_search_chromosome(
     fitness_fn: Callable[[List[int]], float],
     max_no_improve: int = 150,
     rng: Optional[random.Random] = None,
+    time_deadline: Optional[float] = None,
+    score_upper_bound: Optional[float] = None,
 ) -> Tuple[List[int], float]:
     if rng is None:
         rng = random.Random()
@@ -153,6 +183,11 @@ def local_search_chromosome(
     no_imp   = 0
 
     while no_imp < max_no_improve:
+        if time_deadline is not None and time.perf_counter() >= time_deadline:
+            break
+        if score_upper_bound is not None and best_fit >= score_upper_bound - 1e-5:
+            break
+
         move = rng.randint(0, 2)
         c    = best[:]
 
@@ -175,6 +210,80 @@ def local_search_chromosome(
             if n < 2:
                 no_imp += 1
                 continue
+            i    = rng.randrange(n)
+            gene = c.pop(i)
+            j    = rng.randrange(n)
+            c.insert(j, gene)
+
+        fit = fitness_fn(c)
+        if fit > best_fit:
+            best     = c
+            best_fit = fit
+            no_imp   = 0
+        else:
+            no_imp += 1
+
+    return best, best_fit
+
+
+def guided_local_search_chromosome(
+    chromosome: List[int],
+    fitness_fn: Callable[[List[int]], float],
+    attract: List[float],
+    max_no_improve: int = 500,
+    rng: Optional[random.Random] = None,
+    time_deadline: Optional[float] = None,
+    score_upper_bound: Optional[float] = None,
+) -> Tuple[List[int], float]:
+    """
+    Local search biased toward moving high-attractiveness genes earlier in the
+    permutation (decoder processes left-to-right).
+    """
+    if rng is None:
+        rng = random.Random()
+
+    best     = chromosome[:]
+    best_fit = fitness_fn(best)
+    n        = len(best)
+    no_imp   = 0
+
+    if n < 2:
+        return best, best_fit
+
+    while no_imp < max_no_improve:
+        if time_deadline is not None and time.perf_counter() >= time_deadline:
+            break
+        if score_upper_bound is not None and best_fit >= score_upper_bound - 1e-5:
+            break
+
+        c   = best[:]
+        r   = rng.random()
+
+        if r < 0.48:
+            i = rng.randrange(1, n)
+            if attract[c[i]] > attract[c[i - 1]] + 1e-9:
+                c[i], c[i - 1] = c[i - 1], c[i]
+            else:
+                j = rng.randrange(n - 1)
+                c[j], c[j + 1] = c[j + 1], c[j]
+
+        elif r < 0.72 and n >= 4:
+            back  = list(range(max(1, n // 2), n))
+            front = list(range(0, n // 2))
+            i_hi  = max(back, key=lambda idx: attract[c[idx]])
+            j_lo  = min(front, key=lambda idx: attract[c[idx]])
+            if attract[c[i_hi]] > attract[c[j_lo]] + 1e-9:
+                c[i_hi], c[j_lo] = c[j_lo], c[i_hi]
+            else:
+                i = rng.randrange(n - 1)
+                c[i], c[i + 1] = c[i + 1], c[i]
+
+        elif r < 0.88:
+            seg = rng.randint(2, min(4, n))
+            i   = rng.randrange(n - seg + 1)
+            c[i : i + seg] = c[i : i + seg][::-1]
+
+        else:
             i    = rng.randrange(n)
             gene = c.pop(i)
             j    = rng.randrange(n)
@@ -215,12 +324,15 @@ def save_json_output(
         json.dump(result, fh, indent=2)
 
 
-def solve(
+def solve_detailed(
     input_path: str,
     output_dir: str,
     config: GAConfig,
     verbose: bool = True,
-) -> Tuple[float, int]:
+    write_output: bool = True,
+    time_limit_sec: Optional[float] = None,
+    use_guided_local_search: bool = True,
+) -> SolveResult:
     instance_name = Path(input_path).stem
 
     if verbose:
@@ -244,25 +356,40 @@ def solve(
         )
 
     if not programs:
-        print("  No valid programs found – writing empty schedule.")
-        return 0.0, 0
+        if verbose:
+            print("  No valid programs found – writing empty schedule.")
+        return SolveResult(
+            score=0.0,
+            programs_scheduled=0,
+            elapsed_seconds=0.0,
+            convergence=[],
+            stop_reason="no_programs",
+            relaxation_upper_bound=0.0,
+            hit_upper_bound=False,
+            schedule=[],
+        )
 
+    t0 = time.perf_counter()
+    deadline = (t0 + time_limit_sec) if time_limit_sec is not None else None
+
+    upper = relaxed_interval_upper_bound(programs, instance)
     seeds = build_seed_chromosomes(programs, instance)
+    attract = [compute_attractiveness(programs[i], instance) for i in range(len(programs))]
 
     def fitness_fn(chromosome: List[int]) -> float:
         sched = decode_chromosome(chromosome, programs, instance)
         return compute_score(sched, instance)
 
     ga = GeneticAlgorithm(config)
-    t0 = time.perf_counter()
 
     if verbose:
+        tl = f"  wall≤{time_limit_sec:.0f}s" if time_limit_sec else ""
         print(
             f"\nGA params: pop={config.population_size}  "
             f"gen={config.num_generations}  "
             f"cx={config.crossover_rate}  mut={config.mutation_rate}  "
             f"elite={config.elitism_count}  stagnation_limit={config.stagnation_limit}  "
-            f"seed={config.seed}\n"
+            f"seed={config.seed}  relax_UB={upper:.1f} {tl}\n"
         )
 
     best_chrom, best_fitness, convergence = ga.run(
@@ -271,38 +398,103 @@ def solve(
         seed_chromosomes=seeds,
         verbose=verbose,
         log_interval=max(1, config.num_generations // 10),
+        deadline=deadline,
+        score_upper_bound=upper,
     )
 
-    ls_budget = max(100, min(500, len(programs) * 2))
+    if time_limit_sec is not None:
+        ls_budget = max(500, min(12_000, len(programs) * 40))
+    else:
+        ls_budget = max(100, min(500, len(programs) * 2))
+
     if verbose:
-        print(f"\n  Local search ({ls_budget} max trials) …")
+        mode = "Guided local search" if use_guided_local_search else "Local search"
+        print(f"\n  {mode} ({ls_budget} max idle steps) …")
 
-    ls_rng = random.Random(config.seed)
-    best_chrom, best_fitness = local_search_chromosome(
-        best_chrom, fitness_fn,
-        max_no_improve=ls_budget,
-        rng=ls_rng,
-    )
+    ls_rng = random.Random(config.seed if config.seed is not None else 0)
+
+    if use_guided_local_search:
+        best_chrom, best_fitness = guided_local_search_chromosome(
+            best_chrom,
+            fitness_fn,
+            attract,
+            max_no_improve=ls_budget,
+            rng=ls_rng,
+            time_deadline=deadline,
+            score_upper_bound=upper,
+        )
+    else:
+        best_chrom, best_fitness = local_search_chromosome(
+            best_chrom,
+            fitness_fn,
+            max_no_improve=ls_budget,
+            rng=ls_rng,
+            time_deadline=deadline,
+            score_upper_bound=upper,
+        )
+
     elapsed = time.perf_counter() - t0
 
     best_schedule = decode_chromosome(best_chrom, programs, instance)
     best_schedule.sort(key=lambda p: p.start)
 
     verified_score = compute_score(best_schedule, instance)
+    hit_ub = verified_score >= upper - 1e-5
+    if hit_ub:
+        stop_reason = "relaxation_upper_bound"
+    elif time_limit_sec is not None and elapsed >= time_limit_sec - 0.02:
+        stop_reason = "time_limit"
+    else:
+        stop_reason = "completed"
 
-    out_json = os.path.join(output_dir, f"{instance_name}.json")
-    save_json_output(
-        best_schedule, verified_score, convergence,
-        instance_name, out_json, elapsed
-    )
+    if write_output:
+        out_json = os.path.join(output_dir, f"{instance_name}.json")
+        save_json_output(
+            best_schedule, verified_score, convergence,
+            instance_name, out_json, elapsed
+        )
 
     if verbose:
         print(f"\n  Score    : {verified_score:.1f}")
         print(f"  Programs : {len(best_schedule)}")
-        print(f"  Time     : {elapsed:.1f}s")
-        print(f"  Saved    : {out_json}")
+        print(f"  Time     : {elapsed:.1f}s  stop={stop_reason}")
+        if write_output:
+            print(f"  Saved    : {out_json}")
 
-    return verified_score, len(best_schedule)
+    sched_json = [
+        {"channel_id": p.channel_id, "program_id": p.program_id}
+        for p in best_schedule
+    ]
+
+    return SolveResult(
+        score=verified_score,
+        programs_scheduled=len(best_schedule),
+        elapsed_seconds=elapsed,
+        convergence=convergence,
+        stop_reason=stop_reason,
+        relaxation_upper_bound=upper,
+        hit_upper_bound=hit_ub,
+        schedule=sched_json,
+    )
+
+
+def solve(
+    input_path: str,
+    output_dir: str,
+    config: GAConfig,
+    verbose: bool = True,
+    write_output: bool = True,
+) -> Tuple[float, int]:
+    r = solve_detailed(
+        input_path,
+        output_dir,
+        config,
+        verbose=verbose,
+        write_output=write_output,
+        time_limit_sec=None,
+        use_guided_local_search=True,
+    )
+    return r.score, r.programs_scheduled
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -332,6 +524,17 @@ def build_parser() -> argparse.ArgumentParser:
                    help="Random seed (use -1 for non-deterministic).")
     p.add_argument("--quiet",           "-q", action="store_true",
                    help="Suppress per-generation progress output.")
+    p.add_argument(
+        "--max-time-sec",
+        type=float,
+        default=None,
+        help="Hard wall-clock limit (seconds) for GA + local search on this run.",
+    )
+    p.add_argument(
+        "--classic-ls",
+        action="store_true",
+        help="Use randomised local search instead of attractiveness-guided LS.",
+    )
 
     return p
 
@@ -365,11 +568,27 @@ def main(argv: Optional[List[str]] = None) -> int:
             print(f"No JSON files found in {args.input_dir}", file=sys.stderr)
             return 1
         for fp in input_files:
-            score, n = solve(str(fp), args.output_dir, config, verbose=verbose)
-            summary.append((fp.stem, score, n))
+            res = solve_detailed(
+                str(fp),
+                args.output_dir,
+                config,
+                verbose=verbose,
+                write_output=True,
+                time_limit_sec=args.max_time_sec,
+                use_guided_local_search=not args.classic_ls,
+            )
+            summary.append((fp.stem, res.score, res.programs_scheduled))
     else:
-        score, n = solve(args.input, args.output_dir, config, verbose=verbose)
-        summary.append((Path(args.input).stem, score, n))
+        res = solve_detailed(
+            args.input,
+            args.output_dir,
+            config,
+            verbose=verbose,
+            write_output=True,
+            time_limit_sec=args.max_time_sec,
+            use_guided_local_search=not args.classic_ls,
+        )
+        summary.append((Path(args.input).stem, res.score, res.programs_scheduled))
 
     if len(summary) > 1 or verbose:
         print(f"\n{'=' * 60}")

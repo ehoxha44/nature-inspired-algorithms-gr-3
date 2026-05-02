@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import random
+import time
 from dataclasses import dataclass
 from typing import Callable, List, Optional, Tuple
 
@@ -34,6 +35,8 @@ class GeneticAlgorithm:
         seed_chromosomes: Optional[List[List[int]]] = None,
         verbose: bool = True,
         log_interval: int = 25,
+        deadline: Optional[float] = None,
+        score_upper_bound: Optional[float] = None,
     ) -> Tuple[List[int], float, List[float]]:
         cfg = self.config
 
@@ -46,6 +49,9 @@ class GeneticAlgorithm:
 
         for gen in range(cfg.num_generations):
 
+            if deadline is not None and time.perf_counter() >= deadline:
+                break
+
             scores = [fitness_fn(ch) for ch in population]
 
             gen_best_idx = max(range(len(scores)), key=lambda i: scores[i])
@@ -57,6 +63,9 @@ class GeneticAlgorithm:
                 stagnant_gens += 1
 
             convergence.append(best_fitness)
+
+            if score_upper_bound is not None and best_fitness >= score_upper_bound - 1e-5:
+                break
 
             if stagnant_gens >= cfg.stagnation_limit:
                 eff_mut = min(self._MAX_MUTATION,
@@ -101,6 +110,9 @@ class GeneticAlgorithm:
                     next_pop.append(c2)
 
             population = next_pop
+
+            if deadline is not None and time.perf_counter() >= deadline:
+                break
 
         if verbose:
             print(f"\n  Finished. Best fitness = {best_fitness:.1f}")
