@@ -33,7 +33,8 @@ data/
 | Selection | Tournament (k=5) |
 | Elitism | Top 10 chromosomes preserved each generation |
 | Stagnation | Mutation rate ×3 after 30 stagnant generations |
-| Post-GA | Randomised local search (adjacent swap, or-opt-1) |
+| Post-GA | **Guided local search** (attractiveness-biased moves) + optional classic LS (`--classic-ls`) |
+| Time / optimality | Optional `--max-time-sec` hard cap; early stop when score reaches a **DP relaxation upper bound** (provable for this decoder objective) |
 
 ## Quick Start
 
@@ -47,7 +48,32 @@ python -m tv_scheduler.main data/input/kosovo.json \
 
 # Batch-run all inputs
 python -m tv_scheduler.main --all data/input/ --generations 300
+
+# Cap wall time at 5 minutes per instance (GA + guided LS)
+python -m tv_scheduler.main data/input/france.json --max-time-sec 300
 ```
+
+## Per-instance parameter tuning (Optuna)
+
+Requires `optuna` (`pip install -r requirements.txt`).
+
+For **each** JSON instance in `data/input/`, `scripts/optuna_per_instance_tuning.py`:
+
+1. Runs an **Optuna** study (default **6** trials in **fast** mode, **24** with `--no-fast`). Each trial is one GA + guided LS solve with a wall-time cap (default **40 s** fast, **300 s** full).
+2. Writes **`data/output/parameter-tuning-configs/<instance>.json`** with **only** `instance` and `adjustments`. The `adjustments` object holds the chosen GA hyperparameters (as returned by Optuna) plus **`best_score`** from the study — no `trials`, no manifest, no Optuna dump.
+3. Runs exactly **`--runs`** solves (default **10**) per instance using those best hyperparameters. Each **`data/output/parameter-tuning/<instance>/run_XX.json`** must contain **exactly** these keys (validator / same as `data/output/spain.json`): `instance`, `total_score`, `programs_scheduled`, `elapsed_seconds`, `schedule`, `convergence`. Any other top-level JSON shape for runs is invalid.
+
+   `data/output/parameter-tuning/<instance>/run_00.json` … `run_09.json`
+
+```bash
+# Fast defaults: --fast, 6 Optuna trials, 40s cap, 10 runs/instance
+python scripts/optuna_per_instance_tuning.py --input-dir data/input --output-dir data/output
+
+# Heavier search
+python scripts/optuna_per_instance_tuning.py --no-fast --optuna-trials 24 --time-limit-sec 300
+```
+
+Legacy multi-instance preset study: `scripts/parameter_study.py`.
 
 ## Results (default parameters: pop=100, gen=200, seed=42)
 
@@ -84,3 +110,5 @@ Output files are saved as JSON in `data/output/`.
 | `--elitism` | 10 | Elite chromosomes per generation |
 | `--stagnation` | 30 | Stagnant generations before mutation boost |
 | `--seed` | 42 | RNG seed (-1 = non-deterministic) |
+| `--max-time-sec` | *(none)* | Hard wall time (seconds) for GA + local search |
+| `--classic-ls` | off | Use unguided randomised LS instead of guided LS |
