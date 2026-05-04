@@ -1,0 +1,14 @@
+{
+  "instance": "singapore",
+  "adjustments": {
+    "population_size": 75,
+    "num_generations": 50,
+    "crossover_rate": 0.8050602865204289,
+    "mutation_rate": 0.1662118424991578,
+    "tournament_size": 3,
+    "elitism_count": 6,
+    "stagnation_limit": 34,
+    "trial_seed": 86654392,
+    "best_score": 7049.0
+  }
+}

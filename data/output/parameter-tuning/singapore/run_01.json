@@ -1,0 +1,440 @@
+{
+  "instance": "singapore",
+  "total_score": 7000.0,
+  "programs_scheduled": 95,
+  "elapsed_seconds": 36.06,
+  "schedule": [
+    {
+      "channel_id": 68,
+      "program_id": "369836_nhk_newsline_2026-01-04_0060"
+    },
+    {
+      "channel_id": 148,
+      "program_id": "412174_the_world_record_2026-01-04_0074"
+    },
+    {
+      "channel_id": 148,
+      "program_id": "412174_ladybird_s_gameshow_2026-01-04_0080"
+    },
+    {
+      "channel_id": 7,
+      "program_id": "369726_news_2026-01-04_0090"
+    },
+    {
+      "channel_id": 7,
+      "program_id": "369726_news_2026-01-04_0104"
+    },
+    {
+      "channel_id": 57,
+      "program_id": "369816_bluey_s3_2026-01-04_0105"
+    },
+    {
+      "channel_id": 57,
+      "program_id": "369816_bluey_s3_2026-01-04_0112"
+    },
+    {
+      "channel_id": 68,
+      "program_id": "369836_nhk_newsline_2026-01-04_0120"
+    },
+    {
+      "channel_id": 112,
+      "program_id": "412129_italy_major_men_2026-01-04_0130"
+    },
+    {
+      "channel_id": 107,
+      "program_id": "412122_global_week_end_2026-01-04_0150"
+    },
+    {
+      "channel_id": 107,
+      "program_id": "412122_news_2026-01-04_0168"
+    },
+    {
+      "channel_id": 149,
+      "program_id": "412175_part_2_the_84_cup_win_wa_2026-01-04_0180"
+    },
+    {
+      "channel_id": 55,
+      "program_id": "369813_cnbc_sport_on_the_record_2026-01-04_0210"
+    },
+    {
+      "channel_id": 29,
+      "program_id": "369766_dw_news_2026-01-04_0240"
+    },
+    {
+      "channel_id": 163,
+      "program_id": "412190_focus_2026-01-04_0262"
+    },
+    {
+      "channel_id": 107,
+      "program_id": "412122_global_week_end_2026-01-04_0270"
+    },
+    {
+      "channel_id": 148,
+      "program_id": "412174_ladybird_s_gameshow_2026-01-04_0279"
+    },
+    {
+      "channel_id": 7,
+      "program_id": "369726_news_2026-01-04_0285"
+    },
+    {
+      "channel_id": 113,
+      "program_id": "412130_world_weather_2026-01-04_0296"
+    },
+    {
+      "channel_id": 151,
+      "program_id": "412178_news_2026-01-04_0300"
+    },
+    {
+      "channel_id": 163,
+      "program_id": "412190_sports_sunday_2026-01-04_0321"
+    },
+    {
+      "channel_id": 30,
+      "program_id": "369767_got_the_spot_2026-01-04_0330"
+    },
+    {
+      "channel_id": 163,
+      "program_id": "412190_a_week_in_france_2026-01-04_0345"
+    },
+    {
+      "channel_id": 165,
+      "program_id": "412192_free_ticket_2026-01-04_0360"
+    },
+    {
+      "channel_id": 107,
+      "program_id": "412122_5_minutes_2026-01-04_0390"
+    },
+    {
+      "channel_id": 148,
+      "program_id": "412174_work_2026-01-04_0402"
+    },
+    {
+      "channel_id": 113,
+      "program_id": "412130_news_and_weather_2026-01-04_0415"
+    },
+    {
+      "channel_id": 151,
+      "program_id": "412178_news_2026-01-04_0420"
+    },
+    {
+      "channel_id": 148,
+      "program_id": "412174_the_world_record_2026-01-04_0427"
+    },
+    {
+      "channel_id": 163,
+      "program_id": "412190_sports_sunday_2026-01-04_0436"
+    },
+    {
+      "channel_id": 7,
+      "program_id": "369726_news_2026-01-04_0450"
+    },
+    {
+      "channel_id": 148,
+      "program_id": "412174_cricket_2026-01-04_0465"
+    },
+    {
+      "channel_id": 148,
+      "program_id": "412174_cubby_2026-01-04_0472"
+    },
+    {
+      "channel_id": 102,
+      "program_id": "412115_zee_flix_2026-01-04_0480"
+    },
+    {
+      "channel_id": 107,
+      "program_id": "412122_5_minutes_2026-01-04_0510"
+    },
+    {
+      "channel_id": 107,
+      "program_id": "412122_news_2026-01-04_0518"
+    },
+    {
+      "channel_id": 102,
+      "program_id": "412115_zee_flix_2026-01-04_0540"
+    },
+    {
+      "channel_id": 53,
+      "program_id": "369811_oh_my_lallan_2026-01-04_0570"
+    },
+    {
+      "channel_id": 53,
+      "program_id": "369811_oh_my_lallan_2026-01-04_0584"
+    },
+    {
+      "channel_id": 152,
+      "program_id": "412179_nhk_newsline_2026-01-04_0600"
+    },
+    {
+      "channel_id": 151,
+      "program_id": "412178_on_location_2026-01-04_0615"
+    },
+    {
+      "channel_id": 107,
+      "program_id": "412122_5_minutes_2026-01-04_0630"
+    },
+    {
+      "channel_id": 53,
+      "program_id": "369811_oh_my_lallan_2026-01-04_0639"
+    },
+    {
+      "channel_id": 29,
+      "program_id": "369766_dw_news_2026-01-04_0660"
+    },
+    {
+      "channel_id": 29,
+      "program_id": "369766_sports_life_2026-01-04_0662"
+    },
+    {
+      "channel_id": 7,
+      "program_id": "369726_news_2026-01-04_0690"
+    },
+    {
+      "channel_id": 163,
+      "program_id": "412190_the_51_percent_2026-01-04_0705"
+    },
+    {
+      "channel_id": 151,
+      "program_id": "412178_news_2026-01-04_0720"
+    },
+    {
+      "channel_id": 151,
+      "program_id": "412178_on_location_2026-01-04_0735"
+    },
+    {
+      "channel_id": 151,
+      "program_id": "412178_docfilm_2026-01-04_0750"
+    },
+    {
+      "channel_id": 151,
+      "program_id": "412178_news_2026-01-04_0780"
+    },
+    {
+      "channel_id": 151,
+      "program_id": "412178_overcoming_challenges_wi_2026-01-04_0795"
+    },
+    {
+      "channel_id": 7,
+      "program_id": "369726_news_2026-01-04_0810"
+    },
+    {
+      "channel_id": 148,
+      "program_id": "412174_cricket_2026-01-04_0825"
+    },
+    {
+      "channel_id": 148,
+      "program_id": "412174_cubby_2026-01-04_0832"
+    },
+    {
+      "channel_id": 29,
+      "program_id": "369766_dw_news_2026-01-04_0840"
+    },
+    {
+      "channel_id": 30,
+      "program_id": "369767_got_the_spot_2026-01-04_0845"
+    },
+    {
+      "channel_id": 163,
+      "program_id": "412190_focus_2026-01-04_0860"
+    },
+    {
+      "channel_id": 53,
+      "program_id": "369811_hagola_2026-01-04_0870"
+    },
+    {
+      "channel_id": 107,
+      "program_id": "412122_news_2026-01-04_0888"
+    },
+    {
+      "channel_id": 151,
+      "program_id": "412178_news_2026-01-04_0900"
+    },
+    {
+      "channel_id": 163,
+      "program_id": "412190_sports_sunday_2026-01-04_0920"
+    },
+    {
+      "channel_id": 14,
+      "program_id": "369737_sports_woman_2026-01-04_0930"
+    },
+    {
+      "channel_id": 151,
+      "program_id": "412178_news_2026-01-04_0960"
+    },
+    {
+      "channel_id": 151,
+      "program_id": "412178_living_in_the_digital_ag_2026-01-04_0975"
+    },
+    {
+      "channel_id": 103,
+      "program_id": "412116_news_2026-01-04_0990"
+    },
+    {
+      "channel_id": 27,
+      "program_id": "369760_sour_salty_and_alive_s1_2026-01-04_1020"
+    },
+    {
+      "channel_id": 27,
+      "program_id": "369760_sour_salty_and_alive_s1_2026-01-04_1050"
+    },
+    {
+      "channel_id": 29,
+      "program_id": "369766_dw_news_2026-01-04_1080"
+    },
+    {
+      "channel_id": 151,
+      "program_id": "412178_living_in_the_digital_ag_2026-01-04_1095"
+    },
+    {
+      "channel_id": 135,
+      "program_id": "412155_lawak_sorang_sorang_2026-01-04_1110"
+    },
+    {
+      "channel_id": 107,
+      "program_id": "412122_5_minutes_2026-01-04_1140"
+    },
+    {
+      "channel_id": 118,
+      "program_id": "412136_the_toy_cupboard_2026-01-04_1150"
+    },
+    {
+      "channel_id": 163,
+      "program_id": "412190_talking_europe_2026-01-04_1155"
+    },
+    {
+      "channel_id": 7,
+      "program_id": "369726_news_2026-01-04_1170"
+    },
+    {
+      "channel_id": 57,
+      "program_id": "369816_bluey_s3_2026-01-04_1185"
+    },
+    {
+      "channel_id": 57,
+      "program_id": "369816_bluey_s3_2026-01-04_1192"
+    },
+    {
+      "channel_id": 107,
+      "program_id": "412122_5_minutes_2026-01-04_1200"
+    },
+    {
+      "channel_id": 7,
+      "program_id": "369726_news_2026-01-04_1214"
+    },
+    {
+      "channel_id": 29,
+      "program_id": "369766_sports_life_2026-01-04_1215"
+    },
+    {
+      "channel_id": 7,
+      "program_id": "369726_news_2026-01-04_1230"
+    },
+    {
+      "channel_id": 7,
+      "program_id": "369726_news_2026-01-04_1244"
+    },
+    {
+      "channel_id": 163,
+      "program_id": "412190_focus_2026-01-04_1245"
+    },
+    {
+      "channel_id": 163,
+      "program_id": "412190_sports_2026-01-04_1250"
+    },
+    {
+      "channel_id": 107,
+      "program_id": "412122_5_minutes_2026-01-04_1260"
+    },
+    {
+      "channel_id": 107,
+      "program_id": "412122_news_2026-01-04_1265"
+    },
+    {
+      "channel_id": 73,
+      "program_id": "369844_anupamaa_2026-01-04_1290"
+    },
+    {
+      "channel_id": 137,
+      "program_id": "412157_abc_news_overnight_2026_2026-01-04_1320"
+    },
+    {
+      "channel_id": 113,
+      "program_id": "412130_sports_news_2026-01-04_1335"
+    },
+    {
+      "channel_id": 148,
+      "program_id": "412174_the_get_indoors_badge_2026-01-04_1345"
+    },
+    {
+      "channel_id": 7,
+      "program_id": "369726_news_2026-01-04_1362"
+    },
+    {
+      "channel_id": 107,
+      "program_id": "412122_news_2026-01-04_1368"
+    },
+    {
+      "channel_id": 132,
+      "program_id": "412151_ep_10_heidelburg_materia_2026-01-04_1380"
+    },
+    {
+      "channel_id": 7,
+      "program_id": "369726_news_2026-01-04_1410"
+    },
+    {
+      "channel_id": 7,
+      "program_id": "369726_news_2026-01-04_1419"
+    }
+  ],
+  "convergence": [
+    6104.0,
+    6104.0,
+    6212.0,
+    6212.0,
+    6270.0,
+    6270.0,
+    6431.0,
+    6500.0,
+    6500.0,
+    6500.0,
+    6568.0,
+    6575.0,
+    6575.0,
+    6575.0,
+    6575.0,
+    6575.0,
+    6585.0,
+    6585.0,
+    6585.0,
+    6585.0,
+    6585.0,
+    6585.0,
+    6585.0,
+    6585.0,
+    6585.0,
+    6585.0,
+    6585.0,
+    6585.0,
+    6585.0,
+    6585.0,
+    6585.0,
+    6585.0,
+    6585.0,
+    6585.0,
+    6585.0,
+    6598.0,
+    6598.0,
+    6598.0,
+    6598.0,
+    6598.0,
+    6598.0,
+    6598.0,
+    6598.0,
+    6598.0,
+    6598.0,
+    6598.0,
+    6657.0,
+    6657.0,
+    6657.0,
+    6657.0
+  ]
+}

@@ -1,0 +1,418 @@
+{
+  "instance": "canada",
+  "total_score": 6309.0,
+  "programs_scheduled": 67,
+  "elapsed_seconds": 40.0,
+  "schedule": [
+    {
+      "channel_id": 475,
+      "program_id": "470764_tg1_2026-01-04_0060"
+    },
+    {
+      "channel_id": 632,
+      "program_id": "472364_sports_life_2026-01-04_0075"
+    },
+    {
+      "channel_id": 590,
+      "program_id": "470879_schitt_s_creek_2026-01-04_0090"
+    },
+    {
+      "channel_id": 127,
+      "program_id": "470415_live_news_2026-01-04_0120"
+    },
+    {
+      "channel_id": 44,
+      "program_id": "470332_les_jeux_de_la_fontaine_2026-01-04_0153"
+    },
+    {
+      "channel_id": 214,
+      "program_id": "470502_bernard_2026-01-04_0155"
+    },
+    {
+      "channel_id": 164,
+      "program_id": "470452_audiobook_caf_2026-01-04_0180"
+    },
+    {
+      "channel_id": 362,
+      "program_id": "470651_storage_wars_2026-01-04_0210"
+    },
+    {
+      "channel_id": 34,
+      "program_id": "470322_sportfishing_on_the_fly_2026-01-04_0240"
+    },
+    {
+      "channel_id": 531,
+      "program_id": "470820_30_rock_2026-01-04_0270"
+    },
+    {
+      "channel_id": 58,
+      "program_id": "470346_live_l_info_maintenant_2026-01-04_0300"
+    },
+    {
+      "channel_id": 86,
+      "program_id": "470374_live_nhl_pregame_2026-01-04_0330"
+    },
+    {
+      "channel_id": 632,
+      "program_id": "472364_dw_news_2026-01-04_0360"
+    },
+    {
+      "channel_id": 420,
+      "program_id": "470709_peppa_pig_2026-01-04_0375"
+    },
+    {
+      "channel_id": 387,
+      "program_id": "470676_craig_of_the_creek_2026-01-04_0405"
+    },
+    {
+      "channel_id": 632,
+      "program_id": "472364_dw_news_2026-01-04_0420"
+    },
+    {
+      "channel_id": 322,
+      "program_id": "470611_odd_squad_2026-01-04_0430"
+    },
+    {
+      "channel_id": 179,
+      "program_id": "470467_cheers_2026-01-04_0450"
+    },
+    {
+      "channel_id": 367,
+      "program_id": "470656_duck_dynasty_2026-01-04_0480"
+    },
+    {
+      "channel_id": 353,
+      "program_id": "470642_hockey_central_saturday_2026-01-04_0510"
+    },
+    {
+      "channel_id": 269,
+      "program_id": "470558_nhl_center_ice_2026-01-04_0540"
+    },
+    {
+      "channel_id": 273,
+      "program_id": "470562_la_petite_vie_2026-01-04_0570"
+    },
+    {
+      "channel_id": 257,
+      "program_id": "470546_the_past_that_led_us_to__2026-01-04_0600"
+    },
+    {
+      "channel_id": 257,
+      "program_id": "470546_arctic_vets_2026-01-04_0630"
+    },
+    {
+      "channel_id": 632,
+      "program_id": "472364_dw_news_2026-01-04_0660"
+    },
+    {
+      "channel_id": 632,
+      "program_id": "472364_sports_life_2026-01-04_0662"
+    },
+    {
+      "channel_id": 58,
+      "program_id": "470346_live_sports_express_2026-01-04_0687"
+    },
+    {
+      "channel_id": 333,
+      "program_id": "470622_jeopardy_2026-01-04_0690"
+    },
+    {
+      "channel_id": 616,
+      "program_id": "470905_live_le_t_l_journal_2026-01-04_0720"
+    },
+    {
+      "channel_id": 616,
+      "program_id": "470905_live_sports_express_2026-01-04_0747"
+    },
+    {
+      "channel_id": 592,
+      "program_id": "470881_le_t_l_journal_ontario_2026-01-04_0750"
+    },
+    {
+      "channel_id": 209,
+      "program_id": "470497_mom_vs_matchmaker_2026-01-04_0756"
+    },
+    {
+      "channel_id": 632,
+      "program_id": "472364_dw_news_2026-01-04_0780"
+    },
+    {
+      "channel_id": 632,
+      "program_id": "472364_sports_life_2026-01-04_0795"
+    },
+    {
+      "channel_id": 51,
+      "program_id": "470339_live_sports_30_2026-01-04_0810"
+    },
+    {
+      "channel_id": 58,
+      "program_id": "470346_le_t_l_journal_2026-01-04_0840"
+    },
+    {
+      "channel_id": 58,
+      "program_id": "470346_sports_express_2026-01-04_0867"
+    },
+    {
+      "channel_id": 245,
+      "program_id": "470534_the_big_fight_2026-01-04_0870"
+    },
+    {
+      "channel_id": 632,
+      "program_id": "472364_dw_news_2026-01-04_0900"
+    },
+    {
+      "channel_id": 420,
+      "program_id": "470709_peppa_pig_2026-01-04_0915"
+    },
+    {
+      "channel_id": 58,
+      "program_id": "470346_sports_express_2026-01-04_0927"
+    },
+    {
+      "channel_id": 590,
+      "program_id": "470879_schitt_s_creek_2026-01-04_0930"
+    },
+    {
+      "channel_id": 58,
+      "program_id": "470346_le_t_l_journal_2026-01-04_0960"
+    },
+    {
+      "channel_id": 58,
+      "program_id": "470346_sports_express_2026-01-04_0987"
+    },
+    {
+      "channel_id": 143,
+      "program_id": "470431_friends_2026-01-04_0990"
+    },
+    {
+      "channel_id": 58,
+      "program_id": "470346_le_t_l_journal_2026-01-04_1020"
+    },
+    {
+      "channel_id": 58,
+      "program_id": "470346_sports_express_2026-01-04_1047"
+    },
+    {
+      "channel_id": 457,
+      "program_id": "470746_total_dramarama_2026-01-04_1050"
+    },
+    {
+      "channel_id": 475,
+      "program_id": "470764_tg2_mizar_2026-01-04_1065"
+    },
+    {
+      "channel_id": 633,
+      "program_id": "474958_live_tv_patrol_regional_2026-01-04_1095"
+    },
+    {
+      "channel_id": 603,
+      "program_id": "470892_the_sherry_vine_variety__2026-01-04_1110"
+    },
+    {
+      "channel_id": 58,
+      "program_id": "470346_le_t_l_journal_2026-01-04_1140"
+    },
+    {
+      "channel_id": 58,
+      "program_id": "470346_sports_express_2026-01-04_1167"
+    },
+    {
+      "channel_id": 58,
+      "program_id": "470346_le_t_l_journal_2026-01-04_1170"
+    },
+    {
+      "channel_id": 58,
+      "program_id": "470346_sports_express_2026-01-04_1197"
+    },
+    {
+      "channel_id": 632,
+      "program_id": "472364_dw_news_2026-01-04_1200"
+    },
+    {
+      "channel_id": 632,
+      "program_id": "472364_sports_life_2026-01-04_1215"
+    },
+    {
+      "channel_id": 632,
+      "program_id": "472364_docfilm_2026-01-04_1230"
+    },
+    {
+      "channel_id": 547,
+      "program_id": "470836_the_big_bang_theory_2026-01-04_1260"
+    },
+    {
+      "channel_id": 21,
+      "program_id": "470309_peppa_pig_2026-01-04_1295"
+    },
+    {
+      "channel_id": 100,
+      "program_id": "470388_newsbreak26_2026-01-04_1310"
+    },
+    {
+      "channel_id": 110,
+      "program_id": "470398_adventure_time_2026-01-04_1320"
+    },
+    {
+      "channel_id": 588,
+      "program_id": "470877_nintendo_64_quest_2026-01-04_1335"
+    },
+    {
+      "channel_id": 145,
+      "program_id": "470433_paseo_2026-01-04_1365"
+    },
+    {
+      "channel_id": 20,
+      "program_id": "470308_snow_trax_2026-01-04_1380"
+    },
+    {
+      "channel_id": 626,
+      "program_id": "470915_sc_2026-01-04_1410"
+    },
+    {
+      "channel_id": 439,
+      "program_id": "470728_bernard_2026-01-04_1435"
+    }
+  ],
+  "convergence": [
+    5780.0,
+    5780.0,
+    5780.0,
+    6102.0,
+    6102.0,
+    6102.0,
+    6102.0,
+    6102.0,
+    6102.0,
+    6102.0,
+    6102.0,
+    6102.0,
+    6102.0,
+    6102.0,
+    6102.0,
+    6102.0,
+    6102.0,
+    6102.0,
+    6102.0,
+    6102.0,
+    6102.0,
+    6102.0,
+    6102.0,
+    6102.0,
+    6102.0,
+    6102.0,
+    6102.0,
+    6102.0,
+    6102.0,
+    6116.0,
+    6116.0,
+    6140.0,
+    6140.0,
+    6140.0,
+    6140.0,
+    6140.0,
+    6140.0,
+    6140.0,
+    6140.0,
+    6140.0,
+    6140.0,
+    6140.0,
+    6140.0,
+    6140.0,
+    6140.0,
+    6140.0,
+    6140.0,
+    6140.0,
+    6140.0,
+    6140.0,
+    6140.0,
+    6140.0,
+    6140.0,
+    6140.0,
+    6140.0,
+    6140.0,
+    6140.0,
+    6140.0,
+    6140.0,
+    6140.0,
+    6140.0,
+    6140.0,
+    6140.0,
+    6140.0,
+    6208.0,
+    6208.0,
+    6208.0,
+    6208.0,
+    6208.0,
+    6208.0,
+    6208.0,
+    6208.0,
+    6208.0,
+    6208.0,
+    6208.0,
+    6208.0,
+    6208.0,
+    6208.0,
+    6208.0,
+    6208.0,
+    6248.0,
+    6248.0,
+    6248.0,
+    6257.0,
+    6257.0,
+    6257.0,
+    6257.0,
+    6257.0,
+    6257.0,
+    6257.0,
+    6257.0,
+    6257.0,
+    6257.0,
+    6257.0,
+    6257.0,
+    6257.0,
+    6257.0,
+    6257.0,
+    6257.0,
+    6257.0,
+    6257.0,
+    6257.0,
+    6257.0,
+    6257.0,
+    6257.0,
+    6257.0,
+    6257.0,
+    6257.0,
+    6257.0,
+    6257.0,
+    6257.0,
+    6257.0,
+    6257.0,
+    6257.0,
+    6257.0,
+    6257.0,
+    6257.0,
+    6257.0,
+    6257.0,
+    6257.0,
+    6257.0,
+    6257.0,
+    6257.0,
+    6257.0,
+    6257.0,
+    6257.0,
+    6257.0,
+    6257.0,
+    6309.0,
+    6309.0,
+    6309.0,
+    6309.0,
+    6309.0,
+    6309.0,
+    6309.0,
+    6309.0,
+    6309.0,
+    6309.0,
+    6309.0,
+    6309.0
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "instance": "china",
+  "adjustments": {
+    "population_size": 85,
+    "num_generations": 80,
+    "crossover_rate": 0.7857066135990646,
+    "mutation_rate": 0.2406239805022643,
+    "tournament_size": 7,
+    "elitism_count": 5,
+    "stagnation_limit": 21,
+    "trial_seed": 1032158203,
+    "best_score": 2483.0
+  }
+}

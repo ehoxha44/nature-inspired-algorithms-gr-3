@@ -1,0 +1,14 @@
+{
+  "instance": "uk_synthetic",
+  "adjustments": {
+    "population_size": 45,
+    "num_generations": 90,
+    "crossover_rate": 0.8318707667713636,
+    "mutation_rate": 0.17590804083822267,
+    "tournament_size": 7,
+    "elitism_count": 5,
+    "stagnation_limit": 27,
+    "trial_seed": 40320835,
+    "best_score": 2266.0
+  }
+}

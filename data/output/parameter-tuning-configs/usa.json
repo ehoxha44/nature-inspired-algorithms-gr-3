@@ -1,0 +1,14 @@
+{
+  "instance": "usa",
+  "adjustments": {
+    "population_size": 65,
+    "num_generations": 50,
+    "crossover_rate": 0.8789077199743642,
+    "mutation_rate": 0.20150815543242276,
+    "tournament_size": 7,
+    "elitism_count": 6,
+    "stagnation_limit": 28,
+    "trial_seed": 40732113,
+    "best_score": 5911.0
+  }
+}

@@ -1,0 +1,316 @@
+{
+  "instance": "usa",
+  "total_score": 5253.0,
+  "programs_scheduled": 71,
+  "elapsed_seconds": 40.68,
+  "schedule": [
+    {
+      "channel_id": 4572,
+      "program_id": "flosports212_v_flohoops_2026_lynchburg__2026-01-04_0000"
+    },
+    {
+      "channel_id": 9322,
+      "program_id": "tvrepublika_us_poland_daily_2026-01-04_0025"
+    },
+    {
+      "channel_id": 9322,
+      "program_id": "tvrepublika_us_poland_daily_weather_2026-01-04_0035"
+    },
+    {
+      "channel_id": 8636,
+      "program_id": "pickletv_us_breaking_pickleball_s01e_2026-01-04_0047"
+    },
+    {
+      "channel_id": 1741,
+      "program_id": "dwenglish_us_dw_news_2026-01-04_0060"
+    },
+    {
+      "channel_id": 5257,
+      "program_id": "kidoodletv_us_paw_patrol_pup_tales_2026-01-04_0075"
+    },
+    {
+      "channel_id": 8633,
+      "program_id": "phoenixnorthameric_phoenix_weather_forecast_2026-01-04_0087"
+    },
+    {
+      "channel_id": 3532,
+      "program_id": "espn2_us_nfl_kickoff_2026-01-04_0110"
+    },
+    {
+      "channel_id": 9320,
+      "program_id": "tvppolonia_us_sport_2026-01-04_0120"
+    },
+    {
+      "channel_id": 0,
+      "program_id": "14kjzz_us_jeopardy_2026-01-04_0150"
+    },
+    {
+      "channel_id": 7193,
+      "program_id": "nhkworld_us_nhk_newsline_2026-01-04_0180"
+    },
+    {
+      "channel_id": 2197,
+      "program_id": "documentary_us_balloonfest_2026-01-04_0207"
+    },
+    {
+      "channel_id": 10795,
+      "program_id": "itvnextra_us_defacto_2026-01-04_0220"
+    },
+    {
+      "channel_id": 7193,
+      "program_id": "nhkworld_us_nhk_newsline_2026-01-04_0240"
+    },
+    {
+      "channel_id": 990,
+      "program_id": "cgtncctvnews_us_sports_scene_2026-01-04_0255"
+    },
+    {
+      "channel_id": 645,
+      "program_id": "boomerang_us_popeye_the_sailor_2026-01-04_0290"
+    },
+    {
+      "channel_id": 7193,
+      "program_id": "nhkworld_us_nhk_newsline_2026-01-04_0300"
+    },
+    {
+      "channel_id": 1741,
+      "program_id": "dwenglish_us_sports_life_2026-01-04_0315"
+    },
+    {
+      "channel_id": 154,
+      "program_id": "abcwham_us_rochester_press_box_2026-01-04_0345"
+    },
+    {
+      "channel_id": 7193,
+      "program_id": "nhkworld_us_nhk_newsline_2026-01-04_0360"
+    },
+    {
+      "channel_id": 9058,
+      "program_id": "spectrumoc16_us_gameday_hawaii_2026-01-04_0375"
+    },
+    {
+      "channel_id": 9319,
+      "program_id": "tvpinfo_us_serwis_info_poranek_2026-01-04_0390"
+    },
+    {
+      "channel_id": 7193,
+      "program_id": "nhkworld_us_nhk_newsline_2026-01-04_0420"
+    },
+    {
+      "channel_id": 9456,
+      "program_id": "theohiochannel_us_buckeye_guard_2026-01-04_0435"
+    },
+    {
+      "channel_id": 9971,
+      "program_id": "willow_us_cricket_review_the_ashes_2026-01-04_0450"
+    },
+    {
+      "channel_id": 9971,
+      "program_id": "willow_us_cricket_preview_bbl_2025_2026-01-04_0470"
+    },
+    {
+      "channel_id": 7193,
+      "program_id": "nhkworld_us_nhk_newsline_2026-01-04_0480"
+    },
+    {
+      "channel_id": 8633,
+      "program_id": "phoenixnorthameric_phoenix_weather_forecast_2026-01-04_0507"
+    },
+    {
+      "channel_id": 232,
+      "program_id": "abcwest_kabc_us_game_time_with_coach_mcv_2026-01-04_0525"
+    },
+    {
+      "channel_id": 7193,
+      "program_id": "nhkworld_us_nhk_newsline_2026-01-04_0540"
+    },
+    {
+      "channel_id": 9058,
+      "program_id": "spectrumoc16_us_gameday_hawaii_2026-01-04_0570"
+    },
+    {
+      "channel_id": 7193,
+      "program_id": "nhkworld_us_nhk_newsline_2026-01-04_0600"
+    },
+    {
+      "channel_id": 194,
+      "program_id": "abcwqad_us_game_time_with_boomer_es_2026-01-04_0620"
+    },
+    {
+      "channel_id": 9316,
+      "program_id": "tvn24_us_serwis_informacyjny_pogo_2026-01-04_0630"
+    },
+    {
+      "channel_id": 103,
+      "program_id": "abckvii_us_the_armstrong_williams_s_2026-01-04_0650"
+    },
+    {
+      "channel_id": 7193,
+      "program_id": "nhkworld_us_nhk_newsline_2026-01-04_0660"
+    },
+    {
+      "channel_id": 5235,
+      "program_id": "kitvnewskitvdt3_us_live_weather_maps_skycam_2026-01-04_0695"
+    },
+    {
+      "channel_id": 0,
+      "program_id": "14kjzz_us_positively_america_with__2026-01-04_0720"
+    },
+    {
+      "channel_id": 0,
+      "program_id": "14kjzz_us_small_town_big_deal_2026-01-04_0750"
+    },
+    {
+      "channel_id": 1741,
+      "program_id": "dwenglish_us_dw_news_2026-01-04_0780"
+    },
+    {
+      "channel_id": 496,
+      "program_id": "beachtvwpctdt_us_beach_tv_fun_and_sun_2026-01-04_0795"
+    },
+    {
+      "channel_id": 5235,
+      "program_id": "kitvnewskitvdt3_us_live_weather_maps_skycam_2026-01-04_0815"
+    },
+    {
+      "channel_id": 7193,
+      "program_id": "nhkworld_us_nhk_newsline_2026-01-04_0840"
+    },
+    {
+      "channel_id": 2188,
+      "program_id": "discoveryfamilycha_underdogs_united_2026-01-04_0870"
+    },
+    {
+      "channel_id": 2188,
+      "program_id": "discoveryfamilycha_underdogs_united_2026-01-04_0885"
+    },
+    {
+      "channel_id": 7193,
+      "program_id": "nhkworld_us_nhk_newsline_2026-01-04_0900"
+    },
+    {
+      "channel_id": 496,
+      "program_id": "beachtvwpctdt_us_beach_tv_fun_and_sun_2026-01-04_0915"
+    },
+    {
+      "channel_id": 9971,
+      "program_id": "willow_us_cricket_preview_il_t20_2_2026-01-04_0920"
+    },
+    {
+      "channel_id": 437,
+      "program_id": "antena3int_us_deportes_2026-01-04_0939"
+    },
+    {
+      "channel_id": 437,
+      "program_id": "antena3int_us_el_tiempo_2026-01-04_0942"
+    },
+    {
+      "channel_id": 632,
+      "program_id": "bikemag_us_2022_hot_wheels_nitro_ju_2026-01-04_0947"
+    },
+    {
+      "channel_id": 7193,
+      "program_id": "nhkworld_us_nhk_newsline_2026-01-04_0960"
+    },
+    {
+      "channel_id": 1741,
+      "program_id": "dwenglish_us_choices_dare_to_dream_2026-01-04_0975"
+    },
+    {
+      "channel_id": 1182,
+      "program_id": "cspan3_us_reel_america_2026-01-04_1005"
+    },
+    {
+      "channel_id": 8634,
+      "program_id": "phoenixnorthameric_phoenix_weather_forecast_2026-01-04_1015"
+    },
+    {
+      "channel_id": 7193,
+      "program_id": "nhkworld_us_nhk_newsline_2026-01-04_1020"
+    },
+    {
+      "channel_id": 5257,
+      "program_id": "kidoodletv_us_lively_lewis_show_2026-01-04_1058"
+    },
+    {
+      "channel_id": 5814,
+      "program_id": "motorvisiontv_us_chevrolet_corvette_c7_gr_2026-01-04_1074"
+    },
+    {
+      "channel_id": 7193,
+      "program_id": "nhkworld_us_nhk_newsline_2026-01-04_1080"
+    },
+    {
+      "channel_id": 1741,
+      "program_id": "dwenglish_us_sports_life_2026-01-04_1095"
+    },
+    {
+      "channel_id": 9842,
+      "program_id": "vixpremiumdeportes_vix_premium_deportes_1_2026-01-04_1110"
+    },
+    {
+      "channel_id": 7193,
+      "program_id": "nhkworld_us_nhk_newsline_2026-01-04_1140"
+    },
+    {
+      "channel_id": 9322,
+      "program_id": "tvrepublika_us_sport_w_republice_2026-01-04_1160"
+    },
+    {
+      "channel_id": 8633,
+      "program_id": "phoenixnorthameric_phoenix_weather_forecast_2026-01-04_1167"
+    },
+    {
+      "channel_id": 9849,
+      "program_id": "vixpremiumdeportes_vix_premium_deportes_16_2026-01-04_1190"
+    },
+    {
+      "channel_id": 9320,
+      "program_id": "tvppolonia_us_sport_2026-01-04_1205"
+    },
+    {
+      "channel_id": 0,
+      "program_id": "14kjzz_us_silver_coin_rarities_2026-01-04_1230"
+    },
+    {
+      "channel_id": 0,
+      "program_id": "14kjzz_us_pawn_stars_2026-01-04_1260"
+    },
+    {
+      "channel_id": 0,
+      "program_id": "14kjzz_us_pawn_stars_2026-01-04_1290"
+    },
+    {
+      "channel_id": 0,
+      "program_id": "14kjzz_us_the_liquidator_2026-01-04_1320"
+    },
+    {
+      "channel_id": 0,
+      "program_id": "14kjzz_us_the_liquidator_2026-01-04_1350"
+    }
+  ],
+  "convergence": [
+    5253.0,
+    5253.0,
+    5253.0,
+    5253.0,
+    5253.0,
+    5253.0,
+    5253.0,
+    5253.0,
+    5253.0,
+    5253.0,
+    5253.0,
+    5253.0,
+    5253.0,
+    5253.0,
+    5253.0,
+    5253.0,
+    5253.0,
+    5253.0,
+    5253.0,
+    5253.0,
+    5253.0,
+    5253.0
+  ]
+}

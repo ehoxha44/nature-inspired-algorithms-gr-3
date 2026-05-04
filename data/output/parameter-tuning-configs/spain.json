@@ -1,0 +1,14 @@
+{
+  "instance": "spain",
+  "adjustments": {
+    "population_size": 80,
+    "num_generations": 140,
+    "crossover_rate": 0.8326166586068104,
+    "mutation_rate": 0.2350099611956445,
+    "tournament_size": 5,
+    "elitism_count": 11,
+    "stagnation_limit": 29,
+    "trial_seed": 931976281,
+    "best_score": 7506.0
+  }
+}

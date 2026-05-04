@@ -1,0 +1,14 @@
+{
+  "instance": "australia",
+  "adjustments": {
+    "population_size": 80,
+    "num_generations": 120,
+    "crossover_rate": 0.8557271308422243,
+    "mutation_rate": 0.2988280778151146,
+    "tournament_size": 4,
+    "elitism_count": 5,
+    "stagnation_limit": 24,
+    "trial_seed": 80474604,
+    "best_score": 5585.0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "instance": "youtube_premium",
+  "adjustments": {
+    "population_size": 65,
+    "num_generations": 130,
+    "crossover_rate": 0.8387525724456112,
+    "mutation_rate": 0.18054032056612204,
+    "tournament_size": 5,
+    "elitism_count": 7,
+    "stagnation_limit": 40,
+    "trial_seed": 656041351,
+    "best_score": 52368.0
+  }
+}

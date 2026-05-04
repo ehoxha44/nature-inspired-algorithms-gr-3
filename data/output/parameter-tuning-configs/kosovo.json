@@ -1,0 +1,14 @@
+{
+  "instance": "kosovo",
+  "adjustments": {
+    "population_size": 65,
+    "num_generations": 110,
+    "crossover_rate": 0.9043934299606604,
+    "mutation_rate": 0.1577123760210859,
+    "tournament_size": 5,
+    "elitism_count": 7,
+    "stagnation_limit": 26,
+    "trial_seed": 754093713,
+    "best_score": 1814.0
+  }
+}

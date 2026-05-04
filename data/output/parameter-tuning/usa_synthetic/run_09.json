@@ -1,0 +1,202 @@
+{
+  "instance": "usa_synthetic",
+  "total_score": 3315.0,
+  "programs_scheduled": 33,
+  "elapsed_seconds": 40.0,
+  "schedule": [
+    {
+      "channel_id": 133,
+      "program_id": "Channel_133_0"
+    },
+    {
+      "channel_id": 204,
+      "program_id": "Channel_204_1"
+    },
+    {
+      "channel_id": 8,
+      "program_id": "FOX_News_1"
+    },
+    {
+      "channel_id": 8,
+      "program_id": "FOX_News_2"
+    },
+    {
+      "channel_id": 340,
+      "program_id": "Channel_340_2"
+    },
+    {
+      "channel_id": 112,
+      "program_id": "Channel_112_2"
+    },
+    {
+      "channel_id": 386,
+      "program_id": "Channel_386_3"
+    },
+    {
+      "channel_id": 247,
+      "program_id": "Channel_247_2"
+    },
+    {
+      "channel_id": 279,
+      "program_id": "Channel_279_3"
+    },
+    {
+      "channel_id": 238,
+      "program_id": "Channel_238_3"
+    },
+    {
+      "channel_id": 163,
+      "program_id": "Channel_163_4"
+    },
+    {
+      "channel_id": 173,
+      "program_id": "Channel_173_5"
+    },
+    {
+      "channel_id": 136,
+      "program_id": "Channel_136_5"
+    },
+    {
+      "channel_id": 321,
+      "program_id": "Channel_321_6"
+    },
+    {
+      "channel_id": 233,
+      "program_id": "Channel_233_6"
+    },
+    {
+      "channel_id": 68,
+      "program_id": "Channel_68_4"
+    },
+    {
+      "channel_id": 233,
+      "program_id": "Channel_233_8"
+    },
+    {
+      "channel_id": 44,
+      "program_id": "FXX_5"
+    },
+    {
+      "channel_id": 191,
+      "program_id": "Channel_191_8"
+    },
+    {
+      "channel_id": 359,
+      "program_id": "Channel_359_8"
+    },
+    {
+      "channel_id": 297,
+      "program_id": "Channel_297_6"
+    },
+    {
+      "channel_id": 23,
+      "program_id": "VH1_9"
+    },
+    {
+      "channel_id": 197,
+      "program_id": "Channel_197_8"
+    },
+    {
+      "channel_id": 277,
+      "program_id": "Channel_277_9"
+    },
+    {
+      "channel_id": 98,
+      "program_id": "Channel_98_12"
+    },
+    {
+      "channel_id": 329,
+      "program_id": "Channel_329_13"
+    },
+    {
+      "channel_id": 255,
+      "program_id": "Channel_255_10"
+    },
+    {
+      "channel_id": 343,
+      "program_id": "Channel_343_11"
+    },
+    {
+      "channel_id": 5,
+      "program_id": "ESPN_15"
+    },
+    {
+      "channel_id": 5,
+      "program_id": "ESPN_16"
+    },
+    {
+      "channel_id": 1,
+      "program_id": "NBC_14"
+    },
+    {
+      "channel_id": 12,
+      "program_id": "USA_Network_13"
+    },
+    {
+      "channel_id": 33,
+      "program_id": "CNBC_14"
+    }
+  ],
+  "convergence": [
+    2676.0,
+    2676.0,
+    2951.0,
+    3295.0,
+    3295.0,
+    3297.0,
+    3303.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0,
+    3311.0
+  ]
+}

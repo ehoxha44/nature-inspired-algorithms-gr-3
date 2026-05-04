@@ -1,0 +1,128 @@
+{
+  "instance": "germany",
+  "total_score": 967.0,
+  "programs_scheduled": 12,
+  "elapsed_seconds": 0.17,
+  "schedule": [
+    {
+      "channel_id": 1,
+      "program_id": "ZDF_Heute"
+    },
+    {
+      "channel_id": 1,
+      "program_id": "ZDF_Morgenmagazin"
+    },
+    {
+      "channel_id": 1,
+      "program_id": "ZDF_Wetter"
+    },
+    {
+      "channel_id": 1,
+      "program_id": "ZDF_reporter"
+    },
+    {
+      "channel_id": 1,
+      "program_id": "ZDF_lunch_news"
+    },
+    {
+      "channel_id": 1,
+      "program_id": "ZDF_sportsmag"
+    },
+    {
+      "channel_id": 1,
+      "program_id": "ZDF_prime_movie"
+    },
+    {
+      "channel_id": 1,
+      "program_id": "ZDF_prime_news"
+    },
+    {
+      "channel_id": 1,
+      "program_id": "ZDF_ent"
+    },
+    {
+      "channel_id": 0,
+      "program_id": "ARD_movie"
+    },
+    {
+      "channel_id": 0,
+      "program_id": "ARD_late_show"
+    },
+    {
+      "channel_id": 0,
+      "program_id": "ARD_night_music"
+    }
+  ],
+  "convergence": [
+    951.0,
+    951.0,
+    958.0,
+    958.0,
+    959.0,
+    959.0,
+    959.0,
+    959.0,
+    959.0,
+    959.0,
+    959.0,
+    959.0,
+    959.0,
+    959.0,
+    959.0,
+    959.0,
+    959.0,
+    959.0,
+    959.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0,
+    967.0
+  ]
+}

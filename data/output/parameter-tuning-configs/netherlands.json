@@ -1,0 +1,14 @@
+{
+  "instance": "netherlands",
+  "adjustments": {
+    "population_size": 40,
+    "num_generations": 130,
+    "crossover_rate": 0.7939226684606765,
+    "mutation_rate": 0.1995457807148029,
+    "tournament_size": 4,
+    "elitism_count": 9,
+    "stagnation_limit": 26,
+    "trial_seed": 676573890,
+    "best_score": 1894.0
+  }
+}

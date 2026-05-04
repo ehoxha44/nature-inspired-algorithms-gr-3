@@ -1,0 +1,14 @@
+{
+  "instance": "germany",
+  "adjustments": {
+    "population_size": 80,
+    "num_generations": 70,
+    "crossover_rate": 0.7753180970178795,
+    "mutation_rate": 0.27959949835035114,
+    "tournament_size": 7,
+    "elitism_count": 8,
+    "stagnation_limit": 21,
+    "trial_seed": 817732318,
+    "best_score": 967.0
+  }
+}

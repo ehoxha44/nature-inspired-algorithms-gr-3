@@ -1,0 +1,14 @@
+{
+  "instance": "france",
+  "adjustments": {
+    "population_size": 95,
+    "num_generations": 100,
+    "crossover_rate": 0.7829127148511599,
+    "mutation_rate": 0.23088536597587278,
+    "tournament_size": 7,
+    "elitism_count": 11,
+    "stagnation_limit": 25,
+    "trial_seed": 250269465,
+    "best_score": 12261.0
+  }
+}

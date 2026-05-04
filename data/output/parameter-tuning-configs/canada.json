@@ -1,0 +1,14 @@
+{
+  "instance": "canada",
+  "adjustments": {
+    "population_size": 85,
+    "num_generations": 140,
+    "crossover_rate": 0.8593276793257836,
+    "mutation_rate": 0.19176001023745262,
+    "tournament_size": 5,
+    "elitism_count": 13,
+    "stagnation_limit": 24,
+    "trial_seed": 370754284,
+    "best_score": 6386.0
+  }
+}

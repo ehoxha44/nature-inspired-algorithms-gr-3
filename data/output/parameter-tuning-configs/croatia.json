@@ -1,0 +1,14 @@
+{
+  "instance": "croatia",
+  "adjustments": {
+    "population_size": 85,
+    "num_generations": 140,
+    "crossover_rate": 0.7885954522135393,
+    "mutation_rate": 0.27973835057808144,
+    "tournament_size": 4,
+    "elitism_count": 8,
+    "stagnation_limit": 42,
+    "trial_seed": 403165036,
+    "best_score": 2208.0
+  }
+}

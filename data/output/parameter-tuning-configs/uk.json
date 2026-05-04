@@ -1,0 +1,14 @@
+{
+  "instance": "uk",
+  "adjustments": {
+    "population_size": 65,
+    "num_generations": 50,
+    "crossover_rate": 0.9165121260594955,
+    "mutation_rate": 0.18157196819461421,
+    "tournament_size": 7,
+    "elitism_count": 9,
+    "stagnation_limit": 21,
+    "trial_seed": 858919392,
+    "best_score": 12120.0
+  }
+}
